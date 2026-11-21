@@ -1,0 +1,7 @@
+{
+  "commit": "6b5799bae8a1fe3792691ef4b72ae26434c3e799",
+  "url": "https://raw.githubusercontent.com/nothings/stb/6b5799bae8a1fe3792691ef4b72ae26434c3e799/stb_image.h",
+  "sha256": "dfc2aadda6295f67f677587773f25e5bf8c8ad427ed0db7c518525c91e72e020",
+  "license": "MIT (included in header)",
+  "features": "JPEG only"
+}

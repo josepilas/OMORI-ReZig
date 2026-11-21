@@ -1,0 +1,11 @@
+test-tone.ogg is a generated, non-proprietary 440 Hz sine wave.
+
+Generate it with:
+ffmpeg -f lavfi -i sine=frequency=440:sample_rate=44100 -t 0.1 -ac 1 -c:a libvorbis -q:a 1 test-tone.ogg
+
+It is embedded only by the mixer regression test and is not needed by the game runtime.
+
+The MP3 and WAV variants are generated from the same tone for streaming
+decoder/rewind tests:
+ffmpeg -i test-tone.ogg -map_metadata -1 -c:a libmp3lame -b:a 64k test-tone.mp3
+ffmpeg -i test-tone.ogg -map_metadata -1 -c:a pcm_s16le test-tone.wav

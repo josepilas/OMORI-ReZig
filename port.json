@@ -1,0 +1,32 @@
+{
+  "version": "0.0.1",
+  "name": "omori.zip",
+  "items": [
+    "OMORI.sh",
+    "omori/"
+  ],
+  "items_opt": null,
+  "attr": {
+    "title": "OMORI ReZig",
+    "desc": "Play OMORI using OMORI ReZig, a native Zig engine for user-supplied PC or Android game data. R36S port by José Pilas. Game by OMOCAT and team.",
+    "inst": "Extract OMORI-ReZig-0.0.1-R36S.zip into the Ports directory. Copy your Android APK or your complete PC installation into omori/original/ and launch OMORI ReZig. Existing installations use the same data and save paths. A confirms, B cancels, Start opens the field menu when the story permits, X runs, Y tags and Start + Select exits. See omori/README.md for controls, save recovery and the matching engine source.",
+    "genres": [
+      "rpg",
+      "adventure",
+      "visual novel"
+    ],
+    "porter": [
+      "José Pilas"
+    ],
+    "image": {},
+    "rtr": false,
+    "runtime": [],
+    "reqs": [
+      "OMORI Android APK or PC installation data (user-supplied)"
+    ],
+    "arch": [
+      "aarch64"
+    ]
+  },
+  "runtime_version": "0.0.1"
+}

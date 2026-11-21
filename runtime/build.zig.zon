@@ -1,0 +1,21 @@
+.{
+    .name = .omori_rezig,
+    .version = "0.0.1",
+    .fingerprint = 0xb38e4a53ef3198e1,
+    .minimum_zig_version = "0.15.2",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "repro.zig",
+        "render_smoke.zig",
+        "door_repro.zig",
+        "field_render_smoke.zig",
+        "restart_repro.zig",
+        "options_repro.zig",
+        "catalog_smoke.zig",
+        "collision_smoke.zig",
+        "README.md",
+        "scripts",
+    },
+}

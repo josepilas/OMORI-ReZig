@@ -1,0 +1,11 @@
+PySDL2
+======
+
+PySDL2 is a pure Python wrapper around SDL2. The upstream metadata identifies
+this library as Public Domain / zlib. The upstream project states:
+
+This library is given to the public domain. There are no licensing
+restrictions. Please see the upstream PySDL2 documentation for further details.
+
+Upstream project: https://github.com/py-sdl/py-sdl2
+Version vendored for this port: 0.9.17

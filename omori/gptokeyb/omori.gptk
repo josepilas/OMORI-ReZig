@@ -1,0 +1,44 @@
+# OMORI PortMaster gptokeyb mapping
+# Syntax documented at https://portmaster.games/gptokeyb-documentation.html
+
+# D-pad
+up = up
+up = repeat
+down = down
+down = repeat
+left = left
+left = repeat
+right = right
+right = repeat
+
+# OMORI keyboard controls
+a = z
+b = x
+x = shift
+y = a
+
+# Shoulder and trigger controls used by OMORI menus/debug shortcuts
+l1 = q
+r1 = w
+l2 = f4
+r2 = f2
+
+# Menu controls
+start = esc
+back = f12
+
+# Left analog stick as directional input
+left_analog_up = up
+left_analog_up = repeat
+left_analog_down = down
+left_analog_down = repeat
+left_analog_left = left
+left_analog_left = repeat
+left_analog_right = right
+left_analog_right = repeat
+
+# Stable RK3326 deadzone settings
+deadzone_mode = scaled_radial
+deadzone = 6000
+deadzone_scale = 8
+deadzone_delay = 16

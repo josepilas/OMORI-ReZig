@@ -1,0 +1,15 @@
+.zig-cache/
+zig-out/
+__pycache__/
+*.py[cod]
+/cache/
+/reference/
+/runtime/zig-cache/
+/omori/bin/omori-native
+/omori/libs/*.so*
+/omori/original/*
+!/omori/original/.gitkeep
+/omori/saves/*
+!/omori/saves/.gitkeep
+/omori/logs/*
+!/omori/logs/.gitkeep

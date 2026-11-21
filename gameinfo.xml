@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameList>
+  <game>
+    <path>./OMORI.sh</path>
+    <name>OMORI ReZig</name>
+    <desc>Play OMORI using OMORI ReZig, a native Zig engine for user-supplied PC or Android game data. R36S port by José Pilas. Game by OMOCAT and team.</desc>
+    <releasedate>20260729T000000</releasedate>
+    <developer>OMOCAT</developer>
+    <publisher>OMOCAT</publisher>
+    <genre>RPG</genre>
+    <image>./omori/screenshot.png</image>
+  </game>
+</gameList>
